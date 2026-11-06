@@ -222,3 +222,18 @@ tests/                  Automated unit tests
 ## Limitations and future work
 
 Sample data is synthetic and does not represent business outcomes. Historical customer revenue is limited to the supplied window and may include non-completed statuses. Discount comparisons are observational. Profit, tax, shipping, returns accounting, and currency conversion are not inferred when source fields are unavailable. The current SQL schema expects one product per order record; multi-line order support requires an explicit order/header-line model. No live database deployment or hosted dashboard is configured. Future improvements could add configurable revenue-recognition rules, order-line support, data freshness checks, scheduled refreshes, and explicit currency/cost fields when available.
+
+## Project Execution & Verification
+
+This project was configured, executed, and tested locally.
+
+Completed verification:
+- Generated synthetic sample datasets.
+- Validated and cleaned 500 customers, 100 products, and 5,000 orders.
+- Generated EDA reports and advanced analytics.
+- Built and tested the Streamlit dashboard.
+- Created the MySQL database and imported all datasets.
+- Executed SQL analysis queries successfully.
+- Ran automated tests: 23 passed.
+
+All sample data is synthetic and intended for demonstration.
